@@ -9,6 +9,7 @@ public class MyFrame extends JFrame implements ActionListener {
     JButton buttonBack;
     JLabel label;
     String font = "Freestyle Script";
+    String text = "Thank you for checking this out. Change it now";
 
     MyFrame() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -24,7 +25,7 @@ public class MyFrame extends JFrame implements ActionListener {
 
         label = new JLabel();
         label.setBackground(new Color(184, 224, 221));
-        label.setText("Thank you for checking this out. Change it now");
+        label.setText(text);
         label.setFont(new Font(font, Font.PLAIN, 80));
         label.setOpaque(true);
 
